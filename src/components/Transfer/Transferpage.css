@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.Transferpop{
+    width: 100%;
+    height: 100vh;
+    background-color:  rgb(52, 97, 209);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.transwrap{
+    width: 35%;
+    height: 90%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.transup{
+    width: 100%;
+    height: 8%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+.transicon{
+    width: 20%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    color: red;
+   
+}
+.trantitle{
+    width: 100%;
+    height: 15%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "raleway";
+    color: darkblue;
+    
+}
+.Accnum{
+    width: 100%;
+    height: 20%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: darkblue;
+    font-family: "raleway";
+    gap: 10px;
+}
+.Accnum input{
+    width: 80%;
+    height: 40%;
+    border: 2px solid blue;
+    outline: none;
+}
+.sendbtn{
+    width: 100%;
+    height: 15%;
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.send{
+    width: 20%;
+    height: 40%;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+
+}

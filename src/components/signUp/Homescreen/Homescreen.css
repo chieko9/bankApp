@@ -1,0 +1,488 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.Homescreencon{
+    width: 288%;
+    height: 100vh;
+    background-color: lightgreen;
+}
+
+.Main_homecon{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px;
+    background-image: url(src/assets/image6s.jpeg);
+    /* background-repeat: no-repeat; */
+}
+
+.Dashboardcon{
+    width: 95%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    border-radius: 5px;
+}
+
+.LeftDash{
+    width: 20%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.935);
+    border: solid white 1px;
+    box-shadow: 12px 12px 2px 2px rgba(0, 0, 255, .2);
+    
+}
+
+.leftimage{
+    width: 100%;
+    height: 20%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    padding-left: 30px;
+    color: white;
+    font-size: smaller;
+    padding-top: 27px;
+    cursor: pointer;
+}
+.leftimage img{
+    width: 50px;
+    height: 50px;
+    /* background-color: black; */
+    border-radius: 100px;
+}
+.space1{
+    width: 100%;
+    height: 15%;
+    /* background-color: beige; */
+}
+.templates{
+    width: 100%;
+    height: 45%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 20px;
+}
+.dashboard{
+    width: 100%;
+    height: 5%;
+    /* background-color: blue; */
+    color: white;
+    gap: 10px;
+    display: flex;
+    cursor: pointer;
+}
+/* .dashboard:hover{
+   background-color: #3a7bd5;
+   color: white;
+} */
+.cards{
+    width: 100%;
+    height: 5%;
+    /* background-color: blue; */
+    color: white;
+    gap: 10px;
+    display: flex;
+    cursor: pointer;
+}
+.data{
+    width: 100%;
+    height: 5%;
+    /* background-color: blue; */
+    color: white;
+    gap: 10px;
+    display: flex;
+    cursor: pointer;
+}
+.bankservices{
+    width: 100%;
+    height: 5%;
+    /* background-color: blue; */
+    color: white;
+    gap: 10px;
+    display: flex;
+    cursor: pointer;
+
+}
+.messages{
+    width: 100%;
+    height: 5%;
+    /* background-color: blue; */
+    color: white;
+    gap: 10px;
+    display: flex;
+    cursor: pointer;
+
+}
+.settings{
+    width: 100%;
+    height: 5%;
+    /* background-color: blue; */
+    color: white;
+    gap: 10px;
+    display: flex;
+    cursor: pointer;
+
+}
+.space2{
+    width: 100%;
+    height: 10%;
+    /* background-color: blue; */
+}
+.logoutspace{
+    width: 100%;
+    height: 10%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+
+    
+}
+.logout{
+    width: 100%;
+    height: 5%;
+    /* background-color: blue; */
+    color: white;
+    gap: 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+
+
+.MidDash{
+    width: 55%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    border: solid white 1px;
+}
+
+
+
+.Profileboc{
+    width: 100%;
+    height: 90px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+.profilewrapper{
+    width: 80%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+}
+
+.Profilecircle{
+    width: 12%;
+    height: 80%;
+    background-color: lightgrey;
+    border-radius: 100%;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.BalanceBoard{
+    width: 80%;
+    height: 150px;
+    background-color: lightblue;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.Text_Balance{
+    width: 90%;
+    height: 100%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.Availablebalance{
+    width: 100%;
+    height: 50px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+
+}
+
+.MoneyBalance{
+    width: 100%;
+    height: 80px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.MoneyBalance button{
+    width: 30%;
+    height: 60%;
+    border-radius: 50px;
+    border: solid white 1px;
+    color: green;
+}
+
+.sendingmony{
+    width: 80%;
+    height: 80px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.sendmoneywrap{
+    width: 70%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ToCurvepay{
+    width: 15%;
+    height: 70%;
+    background-color: rgba(211, 211, 211, 0.636);
+    border-radius: 5px 5px 5px 5px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ToCurvepay1{
+    width: 15%;
+    height: 70%;
+    background-color: rgba(211, 211, 211, 0.636);
+    border-radius: 5px 5px 5px 5px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TRansferlogo{
+    width: 60%;
+    height: 60%;
+}
+
+
+.ToCurvepay2{
+    width: 15%;
+    height: 70%;
+    background-color: rgba(211, 211, 211, 0.636);
+    border-radius: 5px 5px 5px 5px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SendListname{
+    width: 80%;
+    height: 20px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 10px; */
+}
+
+.Cardsname{
+    width: 30%;
+    height: 100%;
+    /* background-color: darkkhaki; */
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.Cardsname h5{
+   margin-left: 50px;
+}
+.Cardsname1{
+    width: 30%;
+    height: 100%;
+    /* background-color: darkorchid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Cardsname2{
+    width: 30%;
+    height: 100%;
+    /* background-color: darkblue; */
+    display: flex;
+    align-items: center;
+}
+
+.Cardsname2 h5{
+    margin-left: 45px;
+}
+
+.MyBankCard{
+    width: 80%;
+    height: 300px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Mycardname{
+    width: 80%;
+    height: 70px;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+}
+
+.Cardnaming12{
+    width: 20%;
+    height: 80%;
+    /* border-color: darkorchid; */
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 30px;
+    /* padding-inline: 10px; */
+}
+
+.Bankcard{
+    width: 68%;
+    height: 78%;
+    background-color: lightcyan;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Masterwrapp{
+    width: 80%;
+    height: 70%;
+    /* background-color: white; */
+    display: flex;
+    gap: 5px;
+}
+
+
+.Mastercard{
+    width: 100%;
+    height: 20%;
+    /* background-color: blue; */
+    /* margin-top: 20px; */
+}
+
+
+.MasterCard2{
+    width: 30%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    /* margin-left: 30px; */
+}
+
+.Nairabank{
+    width: 100%;
+    height: 70px;
+    /* background-color: darkred; */
+    display: flex;
+    align-items: center;
+    /* gap: 5px; */
+    /* flex-direction: column; */
+}
+
+.nairanumber{
+    width: 50%;
+    height: 100%;
+    /* gap: 70px; */
+    margin-top: 10px;
+
+}
+
+.Scancard{
+    width: 20%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    /* background-color: beige; */
+}
+
+.Dateexpire{
+    width: 100%;
+    height: 40px;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.RightDash{
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url(src/assets/downloa9d.jpeg);
+    background-repeat: no-repeat; */
+}
+
+/* .RightDash img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+} */
+
+.bacgroundImage{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+
+.bacgroundImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}

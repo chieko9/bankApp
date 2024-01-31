@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Loginpagecon{
+    width: 500%;
+    height: 100vh;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LoginmainCon{
+    width: 35%;
+    height: 70%;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
+
+}
+
+.Loginwrapp{
+    width: 80%;
+    height: 85%;
+    /* background-color: lightgray; */
+    gap: 50px;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+}
+
+.CurvePaylogo{
+    width: 100%;
+    height: 20%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Bankhouse{
+    width: 20%;
+    height: 100%;
+}
+
+.Logotext{
+    width: 100%;
+    height: 30px;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    gap: 5px;
+
+}
+
+.Loginemail{
+    width:100%;
+    height: 70px;
+    margin-top: 15px;
+    /* background-color: blue; */
+    /* gap: 51px; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+}
+
+.Loginemail p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Loginemail input{
+    width: 100%;
+    height: 60%;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: solid lightblue 1px;;
+
+}
+
+.Loginpassword{
+    width: 100%;
+    height: 70px;
+    margin-top: 15px;
+    /* background-color: blue; */
+}
+
+.Loginpassword p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Loginpassword input{
+    width: 100%;
+    height: 60%;
+    border-radius: 3px;
+    border: solid lightblue 1px;
+    margin-top: 5px;
+
+
+}
+
+
+
+.LOginbtn{
+    width: 100%;
+    height: 70px;
+    /* background-color: aqua; */
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.LOginbtn button{
+    width: 100%;
+    height: 60%;
+    background-color: lightblue;
+    border: solid lightblue 1px;
+    border-radius: 3px;
+    color: white;
+}
+
+.Donthvaccount{
+    width: 100%;
+    height: 20px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+
+}
+
+.Donthvacces{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Donthvacces span{
+    font-weight: 400;
+    /* color: blue; */
+    cursor: pointer;
+    
+}
+
+.Donthvacces span:hover{
+    color: blue;
+}
